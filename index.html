@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart AI Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="chatbot-icon">💬</div>
+
+<div id="chatbot-container" class="hidden">
+  <div id="header">
+    <span>AI Chatbot</span>
+    <button id="close-btn">✖</button>
+  </div>
+
+  <div id="chatbot-messages"></div>
+
+  <div id="upload-section">
+    <input type="file" id="file-input">
+    <button id="upload-btn">Upload</button>
+  </div>
+
+  <div id="input-section">
+    <button id="voice-btn">🎤</button>
+    <input type="text" id="chatbot-input" placeholder="Type your message..." />
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
